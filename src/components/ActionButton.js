@@ -8,7 +8,7 @@ class ActionButton extends Component {
 
     return (
       <div className="small-6">
-        <button className="action-button">{number}</button>
+        <button className="action-button" onClick={this.props.onClick}>{number}</button>
       </div>
     );
   }
